@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>NPSS Announcement | View</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Google Fonts Integration-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+        <!-- Animate.CSS -->
+        <link rel="stylesheet" href="CSS/animate.min.css">
+        
+		<!-- Local CSS -->
+		<link rel="stylesheet" type="text/css" href="CSS/styles.min.css">
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/script.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container">
+			<header id="main-header">
+				<nav>
+					<ul>
+						<li class="animated slideInLeft"><a href="view-announcements.html">View</a></li>
+
+						<li id="logo" class="animated slideInDown"><a href="index.html">NPSS Announcements</a></li>
+
+						<li class="animated slideInRight"><a href="manage-announcements.html">Manage</a></li>
+					</ul>
+				</nav>
+			</header><!-- end main-header -->
+		</div><!-- end container -->
+		
+		<div class="hero clearfix">
+			<div class="container">
+				<img src="photos/header_announcements.jpg" id="hero-image" style="width: 920px;" class="animated bounceIn">
+			</div>
+		</div><!-- end hero -->
+
+		<div class="container">
+			<div class="content">
+				<div id="announcement-board" class="animated bounceIn">
+					<div id="announcement-board-title">
+						<h2>Announcement Board</h2>
+					</div>
+					<div id="announcement-holder">
+                        <div id="tableTitles">
+                            <div class="col-md-2" id="titleTitle"><h3>Title</h3></div>
+                            <div class="col-md-6" id="descriptionTitle"><h3>Description</h3></div>
+                            <div class="col-md-2" id="tagTitle"><h3>Tag</h3></div>
+                            <div class="col-md-2" id="genderTitle"><h3>Gender</h3></div>
+                        </div>
+                        <div id="titlePost" class="col-md-2">
+                            (none)
+                        </div>
+                        <div id="descriptionPost" class="col-md-6">
+                            (none)
+                        </div>
+                        <div id="tagPost" class="col-md-2">
+                            (none)
+                        </div>
+                        <div id="genderPost" class="col-md-2">
+                            (none)
+                        </div>
+					</div>
+				</div>
+                <form>
+                    <div class="centrebutton">
+                        
+                        <div class="col-md-4 col-sm-12">
+                            <h4 class="h4">Tag:</h4>
+                            <select id="tagChoice">
+                                <option value="All">All</option>
+                                <option value="General">General</option>
+                                <option value="Business">Business</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Athletics">Athletics</option>
+                                <option value="Social">Social</option>
+                                <option value="School Help">School Help</option>
+                                <option value="SAC">Students Activities Council</option>
+                                <option value="School Events">School Events</option>
+                            </select>
+                        </div>
+                            
+                        <div class="col-md-4 col-sm-12">
+                            <h4>Gender:</h4>
+                            <select id="genderChoice">
+                                <option value="All">All</option>
+                                <option value="Both">Both</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                    
+                        <div class="col-md-4 col-sm-12">
+                            <h4>Submit</h4>
+                            <input id="specificButton" type="button" value="View" onclick="displayData();"></input>
+                        </div>
+                    </div>
+                </form>
+                
+			</div><!-- end content -->
+		</div><!-- end container -->
+        
+        <script>
+            window.onload = displayData();
+        </script>
+
+		<footer id="main-footer">
+			<div class="container">
+				<div id="author" class="animated bounceIn">
+					<ul>
+						<li><a href="">Twitter</a></li>
+						<li>Created for <a href="http://northparkvikings.ca/">North Park Secondary School</a> by ICS 3DR</li>
+						<li><a>Facebook</a></li>
+					</ul>
+					<p><img src="photos/bluemarine_logo.png"></p>
+				</div>
+			</div>
+		</footer><!-- end main-footer -->
+	</body>
+</html>

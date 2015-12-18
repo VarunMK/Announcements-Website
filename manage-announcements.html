@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>NPSS Announcement | Manage</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Google Fonts Integration-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+        <!-- Animate.CSS -->
+        <link rel="stylesheet" href="CSS/animate.min.css">
+
+		<!-- Local CSS -->
+		<link rel="stylesheet" type="text/css" href="CSS/styles.min.css">
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/script.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container">
+			<header id="main-header">
+				<nav>
+					<ul>
+						<li class="animated slideInLeft"><a href="view-announcements.html">View</a></li>
+
+						<li id="logo" class="animated slideInDown"><a href="index.html">NPSS Announcements</a></li>
+
+						<li class="animated slideInRight"><a href="manage-announcements.html">Manage</a></li>
+					</ul>
+				</nav>
+			</header><!-- end main-header -->
+		</div><!-- end container -->
+		
+		<div class="hero clearfix">
+			<div class="container">
+				<img src="photos/announcements4.jpg" id="hero-image" class="animated bounceIn">
+				<div id="hero-text" class="animated bounceIn">
+					<h2 id="hero-heading">Manage <br> Announcements</h2>
+					<p class="hero-paragraph">Add new announcements or edit your previous <br> announcements to the announcements board!</p>
+					<p class="hero-paragraph">The students of North Park are dying <br> to hear what you have for them everyday of the <br> school year. Come on now, add an announcement!</p>
+				</div>
+			</div>
+		</div><!-- end hero -->
+
+		<div class="container">
+			<div class="content clearfix animated bounceIn">
+				<div class="centre">
+                    <div id="new-announcement">
+                        <h2>Add New Announcement</h2>
+                        <form id="announcement-form">
+                            <h4>Title: </h4>
+                            <input type="text" id="title-announcement"></input>
+
+                            <br>
+
+                            <h4>Description: </h4>
+                            <textarea id="description-announcement"></textarea>
+
+                            <br>
+
+                            <h4>Tag: </h4>
+                            <select id="tag-announcement">
+                                <option value="General">General</option>
+                                <option value="Business">Business</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Athletics">Athletics</option>
+                                <option value="Social">Social</option>
+                                <option value="School Help">School Help</option>
+                                <option value="SAC">Students Activities Council</option>
+                                <option value="School Events">School Events</option>
+                            </select>
+
+                            <br>
+                            
+                            <h4>Gender:</h4>
+                            <select id="gender-announcement">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Both">Both</option>
+                            </select>
+                        
+                            <br>
+                        
+                            <input type="button" value="Post Announcement" onclick="return getData()"></input>
+
+                        </form>
+                    </div><!-- end new-announcement -->
+                </div>
+			</div><!-- end content -->
+		</div><!-- emd container -->
+
+		<footer id="main-footer">
+			<div class="container">
+				<div id="author" class="animated bounceIn">
+					<ul>
+						<li><a href="">Twitter</a></li>
+						<li>Created for <a href="http://northparkvikings.ca/">North Park Secondary School</a> by ICS 3DR</li>
+						<li><a>Facebook</a></li>
+					</ul>
+					<p><img src="photos/bluemarine_logo.png"></p>
+				</div>
+			</div>
+		</footer><!-- end main-footer -->
+
+	</body>
+</html>

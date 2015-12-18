@@ -1,0 +1,345 @@
+/* 
+NPSS Announcments Styles
+By:Varun Khatri
+-=+=-==+=-=+=-=+=-=+=-=+=-
+*/
+
+/* All + General */
+
+body {
+	background-color: #f2fbff;
+}
+
+.container {
+	width: 950px;
+	background-color: rgba(0, 0, 0, .01);
+}
+
+/* Typography */
+
+#main-header {
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+body {
+	font-family: Lato, Helvetica, sans-serif;
+	font-size: 14px;
+}
+ 
+/* Navagation Bar*/
+
+header nav {
+	text-align: center;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	line-height: 256px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 70px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 10px;
+	color:#fff;
+	text-transform: uppercase;
+	border-radius: 4px;
+	background-color: #00A0B0;
+}
+
+header nav ul li a:hover {
+	text-decoration: none;
+	font-weight: 600;
+	color:#fff;
+}
+
+header nav ul li#logo a {
+	display: block;
+	width: 192px;
+	height: 192px;
+	background: url('../photos/logo.png') center center no-repeat;
+	text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+	padding: 0;
+	background: url('../photos/logo-hover.png') center center no-repeat;
+}
+
+/* Hero */
+
+.hero {
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	background-color: #EDC951;
+}
+
+#hero-image {
+	float: left;
+}
+
+#hero-text {
+	float: left;
+	padding-left: 10px;
+}
+
+#hero-heading {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.hero-paragraph {
+
+}
+
+/* Register */
+#register {
+	text-align: center;
+}
+
+#register button{
+  width:100px;
+  border: none;
+  background:#CC333F;
+  padding:1%;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+
+#register button:hover{
+  background:#EB6841;
+}
+
+/* Login */
+
+#login{
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+}
+
+#login h1{
+  background:#CC333F;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+#login form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+#login form input[type="text"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-size:95%;
+  color:#555;
+}
+
+#login form input[type="button"]{
+  width:100%;
+  border: none;
+  background:#CC333F;
+  padding:4%;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+}
+
+#login form input[type="button"]:hover{
+  background:#EB6841;
+}
+
+/* After-Login */
+#after-login {
+
+}
+
+#login-name{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#after-login-instructions {
+  text-align: center;
+}
+
+/* Footer */
+#main-footer {
+	background-color: #00A0B0;
+	padding: 30px;
+	margin-top: 10px;
+}
+
+#author {
+	text-align: center;
+	font-size: 18px;
+}
+
+#author ul {
+	list-style: none;
+	display: inline-block;
+	line-height: 20px;
+}
+
+#author ul li {
+	color: #fff;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#author ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#author ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+
+/* Manage Announcements */
+.centre {
+   
+}
+#new-announcement {
+	padding-right: 20px;
+	width: 420px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#new-announcement h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#new-announcement form {
+	background-color:#EDC951; 
+	padding:10px;
+}
+
+#new-announcement form h4 {
+	text-transform: uppercase;
+}
+
+#new-announcement form input[type="text"],textarea,select{
+  width:100%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-size:95%;
+  color:#555;
+}
+
+#new-announcement form textarea {
+	min-width: 380px;
+	min-height: 112px;
+	max-width: 380px;
+	max-height: 112px;
+}
+
+#new-announcement form input[type="button"]{
+  width:100%;
+  border: none;
+  background:#CC333F;
+  padding:4%;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#new-announcement form input[type="button"]:hover{
+  background:#EB6841;
+}
+/* View Announcements */
+
+#announcement-board {
+    height: 120px;
+}
+
+#titlePost {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #CC333F;
+    color: white;
+}
+
+#descriptionPost {
+    background: #EB6841;
+    color: white;
+}
+
+#tagPost {
+    background: #CC333F;
+    color: white;
+}
+
+#genderPost {
+    background: #EB6841;
+    color: white;
+}
+
+#specificButton {
+  width:100px;
+  border: none;
+  background:#CC333F;
+  padding:3%;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  text-transform: uppercase;
+  display: block;
+  vertical-align: center;
+}
+
+#specificButton:hover{
+  background:#EB6841;
+}
+
+#tagChoice,
+#genderChoice{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.centrebutton {
+    text-align: left;
+    padding-top: 20px; 
+}
+
+/* Clearfix */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}

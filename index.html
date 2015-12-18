@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>NPSS Announcement | Home</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Google Fonts Integration-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        
+        <!-- Animate.CSS -->
+        <link rel="stylesheet" href="CSS/animate.min.css">
+
+		<!-- Local CSS -->
+		<link rel="stylesheet" type="text/css" href="CSS/styles.min.css">
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/script.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<header id="main-header">
+				<nav>
+					<ul>
+						<li class="animated slideInLeft"><a href="view-announcements.html">View</a></li>
+
+						<li id="logo" class="animated slideInDown"><a href="index.html">NPSS Announcements</a></li>
+
+						<li class="animated slideInRight"><a href="manage-announcements.html">Manage</a></li>
+					</ul>
+				</nav>
+			</header><!-- end main-header -->
+		</div><!-- end container -->
+		
+		<div class="hero clearfix">
+			<div class="container">
+				<img src="photos/npss.png" id="hero-image" class="animated bounceIn">
+				<div id="hero-text" class="animated bounceIn">
+					<h2 id="hero-heading">Welcome <br>to a new <br> system!</h2>
+					<p class="hero-paragraph">North Park SS now has <br>an online  environment for <br>announcments! </p>
+				</div>
+			</div>
+		</div><!-- end hero -->
+
+		<div class="container">
+			<div class="content">
+				<div id="after-login">
+					<p id="login-name"></p>
+					<p id="after-login-instructions"></p>
+				</div>
+				<div id="login">
+				  	<h1 class="animated bounceIn">Log in</h1>
+				  	<form class="animated bounceIn">
+			    		<input type="text" placeholder="Student Number/Teacher Number" id="teacherNumber"/>
+			    		<input type="password" placeholder="Password" id="password"/>
+			    		<input type="button" id="button-login" value="Log in" onclick="return login();"/>
+			  		</form>
+				</div><!-- end login -->
+
+				<!--<div id="register" class="animated bounceIn">
+					<button>Register</button>
+				</div> -->
+			</div><!-- end content -->
+		</div><!-- end container -->
+
+		<footer id="main-footer">
+			<div class="container">
+				<div id="author" class="animated bounceIn">
+					<ul>
+						<li><a href="https://twitter.com/northparkssca">Twitter</a></li>
+						<li>Created for <a href="http://northparkvikings.ca/">North Park Secondary School</a> by ICS 3DR</li>
+						<li><a href="https://www.facebook.com/pages/North-Park-Secondary-School/106176169421629?rf=582357085140929">Facebook</a></li>
+					</ul>
+					<p><img src="photos/bluemarine_logo.png"></p>
+				</div>
+			</div>
+		</footer><!-- end main-footer -->
+	</body>
+</html>
